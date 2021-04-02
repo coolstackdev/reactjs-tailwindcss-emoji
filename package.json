@@ -18,7 +18,9 @@
     "test": "craco test",
     "eject": "craco eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "lint": "eslint --ext \".js\" --ignore-path .gitignore .",
+    "lint-fix": "npm run lint -- --fix"
   },
   "eslintConfig": {
     "extends": [
@@ -57,6 +59,7 @@
     "@storybook/react": "^6.2.1",
     "@tailwindcss/postcss7-compat": "^2.0.4",
     "autoprefixer": "^9",
+    "eslint": "^7.23.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",

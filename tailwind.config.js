@@ -1,45 +1,50 @@
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
     colors: {
-      transparent: 'transparent',
-      white: '#fff',
+      transparent: "transparent",
+      white: "#fff",
       black: {
-        lightest: '#404040',
-        light: '#222',
-        DEFAULT: '#000',
-        dark: '#1D1D1D',
-        darkest: '#1C1C1C',
+        lightest: "#404040",
+        light: "#222",
+        DEFAULT: "#000",
+        dark: "#1D1D1D",
+        darkest: "#1C1C1C",
       },
       gray: {
-        light: '#3F63882E',
-        DEFAULT: '#65656536',
-        dark: '#00000029',
+        light: "#3F63882E",
+        DEFAULT: "#65656536",
+        dark: "#00000029",
       },
       yellow: {
-        lightest: '#FFFE4B',
-        light: '#FFF61F',
-        DEFAULT: '#FFF61F',
-        dark: '#FFDC4B',
-        darkest: '#FFD21F'
+        lightest: "#FFFE4B",
+        light: "#FFF61F",
+        DEFAULT: "#FFF61F",
+        dark: "#FFDC4B",
+        darkest: "#FFD21F",
       },
       blue: {
-        DEFAULT: '#373E98',
+        DEFAULT: "#373E98",
       },
       pink: {
-        light: '#FF5C5C',
-        DEFAULT: '#FF5C5C',
-        dark: '#FD6565'
+        light: "#FF5C5C",
+        DEFAULT: "#FF5C5C",
+        dark: "#FD6565",
       },
       red: {
-        lightest: '#E74010',
-        light: '#E50019',
-        DEFAULT: '#E50019',
-        dark: '#D9504B',
-        darkest: '#B94245'
-      }
+        lightest: "#E74010",
+        light: "#E50019",
+        DEFAULT: "#E50019",
+        dark: "#D9504B",
+        darkest: "#B94245",
+      },
+    },
+    boxShadow: {
+      sm: "0px 2px 6px #00000029",
+      DEFAULT: "0px 1px 21px #65656536",
+      md: "5px 6px 15px #3F63882E",
     },
   },
   variants: {
