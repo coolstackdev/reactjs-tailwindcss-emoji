@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div className="bg-red-300 text-blue-400">
+    <div className="bg-red-light text-white body-2">
       app, this is test component
     </div>
   );

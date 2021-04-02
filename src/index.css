@@ -1,3 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&family=Lexend:wght@500&family=Montserrat:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Montserrat";
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+}
+
+.heading-1 {
+  font-family: 'Epilogue';
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 85px;
+}
+
+.heading-2 {
+  font-family: 'Epilogue';
+  font-weight: 700;
+  font-size: 53px;
+  line-height: 64px;
+}
+
+.heading-3 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+}
+
+.heading-4 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.heading-5 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.subheading-1 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 90px;
+  line-height: 120px;
+}
+
+.subheading-2 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 85px;
+}
+
+.subheading-3 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 35px;
+}
+
+.subheading-4 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 42px;
+}
+
+.subheading-5 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.subheading-6 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18.33px;
+  line-height: 35px;
+}
+
+.title-1 {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 45px;
+}
+
+.title-2 {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.title-3 {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.title-4 {
+  font-family: 'Lexend';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.body-1 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.body-2 {
+  font-family: 'Epilogue';
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 42px;
+}
