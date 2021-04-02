@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       width: {
         "269px": "269px",
+        "1600px": "1600px",
       },
       height: {
         "7px": "7px",
@@ -13,6 +14,7 @@ module.exports = {
       minWidth: {
         "128px": "128px",
         "275px": "275px",
+        "1600px": "1600px",
       },
       borderRadius: {
         "btn-sm": "6px",

@@ -8,10 +8,12 @@ export const Series = () => {
     console.log("discover more")
   }
   return (
-    <div className="flex items-center px-32 py-10 bg-gradient-to-br from-pink-dark to-yellow-dark rounded-xl">
-      <div className="flex-col w-2/3">
-        <p className="text-yellow-lightest heading-5 mb-3">SERIES 1</p>
-        <p className="text-white title-2 mb-6">
+    <div className="flex items-center px-6 xl:px-32 py-4 xl:py-10 bg-gradient-to-br from-pink-dark to-yellow-dark rounded-xl">
+      <div className="flex-col w-full xl:w-2/3">
+        <p className="text-yellow-lightest subheading-4 xl:heading-5 mb-3">
+          SERIES 1
+        </p>
+        <p className="text-white title-3 xl:title-2 mb-6">
           Follow the guide to complete your series. View the complete set for
           series 1.
         </p>
@@ -20,11 +22,11 @@ export const Series = () => {
             secondary
             small
             title="DISCOVER EMOJI ICONS"
-            onClick={() => discoverMore}
+            onClick={discoverMore}
           />
         </div>
       </div>
-      <div className="relative h-60 w-96">
+      <div className="hidden xl:block relative h-60 w-96">
         <img
           className="absolute top-0 right-0 -mt-10"
           src={emoji1}

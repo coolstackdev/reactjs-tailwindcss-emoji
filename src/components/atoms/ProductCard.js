@@ -21,6 +21,10 @@ export const ProductCard = ({ product, price }) => {
       break
   }
 
+  const buy = () => {
+    console.log("buy: ", product)
+  }
+
   return (
     <div className="inline-block">
       <div className="flex-col items-center justify-center">
@@ -28,7 +32,7 @@ export const ProductCard = ({ product, price }) => {
           <img src={selectedProduct} alt="Emoji Product" />
         </div>
         <div className="flex justify-center">
-          <Button primary large title={`Buy Now $${price}`} />
+          <Button onClick={buy} primary large title={`Buy Now $${price}`} />
         </div>
       </div>
     </div>
