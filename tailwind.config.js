@@ -2,7 +2,24 @@ module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      width: {
+        "269px": "269px",
+      },
+      height: {
+        "7px": "7px",
+        "69px": "69px",
+      },
+      minWidth: {
+        "128px": "128px",
+        "275px": "275px",
+      },
+      borderRadius: {
+        "btn-sm": "6px",
+        "btn-md": "10px",
+        "btn-full": "9999px",
+      },
+    },
     colors: {
       transparent: "transparent",
       white: "#fff",
@@ -17,6 +34,7 @@ module.exports = {
         light: "#3F63882E",
         DEFAULT: "#65656536",
         dark: "#00000029",
+        darkest: "#081C36",
       },
       yellow: {
         lightest: "#FFFE4B",
